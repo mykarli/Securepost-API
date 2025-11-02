@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FullStackBitirme.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26f875d37654177e334a0b89ef50f63b5c4648bf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b42ad9b81a65ea9c5af0bb9bc0e6dc42333368d5")]
 [assembly: System.Reflection.AssemblyProductAttribute("FullStackBitirme.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FullStackBitirme.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
