@@ -1,30 +1,37 @@
-# FullStackBitirme.Api
+# 🧠 FullStackBitirme.Api – v1.0
 
-Bu proje, **.NET 8 Web API** kullanılarak geliştirilmiş bir kimlik doğrulama servisidir.  
-Techcareer.net Full Stack Developer bitirme ödevi kapsamında hazırlanmıştır.  
+[![.NET 8](https://img.shields.io/badge/.NET-8.0-blueviolet)]()
+[![Entity Framework Core](https://img.shields.io/badge/EntityFrameworkCore-8.0-green)]()
+[![JWT Auth](https://img.shields.io/badge/Auth-JWT-orange)]()
+[![SQLite](https://img.shields.io/badge/Database-SQLite-lightgrey)]()
 
-Proje kapsamında **JWT tabanlı Register ve Login işlemleri** başarıyla uygulanmıştır.
-
----
-
-## 🚀 Teknolojiler
-- ASP.NET Core Web API  
-- Entity Framework Core (SQLite)  
-- JWT Authentication  
-- Swagger UI  
+> Techcareer.net **Full Stack Developer Bitirme Ödevi (Backend)** kapsamında geliştirilmiştir.  
+> Kullanıcı kayıt/giriş işlemleri, JWT token üretimi ve GUID tabanlı `User–Post` ilişkisini içerir.
 
 ---
 
-## 🧩 API Endpointleri
-- `POST /api/Auth/register` → Yeni kullanıcı kaydı  
-- `POST /api/Auth/login` → Giriş işlemi (JWT Token döner)
+## 🚀 Özellikler
+✅ Register & Login  
+✅ JWT Authentication  
+✅ Token doğrulama  
+✅ Gönderi oluşturma  
+✅ Gönderi listeleme  
+✅ GUID tabanlı `User–Post` ilişkisi  
+✅ Swagger arayüzü  
+✅ SQLite veritabanı  
 
 ---
 
-## 💾 Veritabanı
-SQLite (`app.db`) kullanılmıştır.
+## 🔗 Sürüm
+📦 [v1.0 – Final Full Stack Bitirme Backend](https://github.com/mykarli/FullStackBitirme.Api/releases/tag/v1.0)
 
 ---
 
-## 👨‍💻 Geliştirici
-**Oğuzhan Karlı** – [github.com/mykarli](https://github.com/mykarli)
+## ⚙️ Kurulum
+```bash
+git clone https://github.com/mykarli/FullStackBitirme.Api.git
+cd FullStackBitirme.Api
+dotnet restore
+dotnet ef database update
+dotnet run
+
